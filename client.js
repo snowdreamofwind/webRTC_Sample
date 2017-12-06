@@ -12,7 +12,15 @@ const roomName = 'observable-' + roomHash;
 const configuration = {
   iceServers: [{
     urls: 'stun:stun.l.google.com:19302'
-  }]
+  },{
+   urls: 'stun:stun.freeswitch.org' 
+  },{
+   urls: 'stun:stun.xten.com'
+  },{
+   urls: 'stun:stun.ekiga.net'
+  }
+              
+]
 };
 let room;
 let pc;
